@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    height: 2000px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header .header{
+    height: 80px;
+    
+    display: flex;
+    justify-content:space-between;
+}
+header .header .menu{
+    margin-left: 100px;
+    
+}
+header .header .menu ul{
+    display: flex;
+}
+header .header .menu ul li{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 22px;
+    
+}
+header .header .menu ul li a{
+    color: #a6a5a5;
+}
+header .header .logo{
+    margin-right: 70px;
+    margin-top: 15px;
+}
+header .header .logo h2{
+   margin: 0;
+    color: #b8b7b7;
+    padding-right: 10px;
+}
+header .header .logo h2:nth-child(2){
+    color: #53924D;
+    transform: translateX(10px);
+}
+header .sub-header{
+    background-color: #F7F7F7;
+    height: 100px;
+}
+header .sub-header p{
+    padding-top: 20px;
+    padding-right: 70px;
+    color:#a6a5a5 ;
+}
+header .sub-header p b{
+    color: #333;
+}
+header .sub-header h3{
+    margin-right: 70px;
+}
+header .last-header{
+    height: 100px;
+    background: #53924D;
+    padding-right: 65px;
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 20PX;
+    
+}
+.hero .container{
+display: flex;
+}
+.hero .container .images{
+    width: 50%;
+    position: relative;
+}
+.hero .container .content{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.hero .container .content h3{
+    font-size: 24px;
+}
+.hero .container .content p{
+    width: 80%;
+    color: #a6a5a5;
+    font-size: 18px;
+}
+.hero .container .content .link{
+    width: 150px;
+    height: 40px;
+    background: #53924D;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.hero .container .content .link a{
+    color: #fff;
+}
+.hero .container .images img{
+    border-radius: 20px;
+    box-shadow: 0 0 5px #ccc;
+    border: 1px solid #b8b7b7;
+}
+.hero .container .images .one{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: 1;
+}
+.hero .container .images .two {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    z-index: 2;
+}
+.hero .container .images .three {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    z-index: 3;
+}

@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #090A67;
+    display: flex;
+    color: #eee;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+header .menu {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+header .menu ul{
+    display: flex;
+}
+
+header .menu ul li {
+    padding-left: 20px;
+
+}
+
+header .register ul {
+    display: flex;
+    margin-left: 700px;
+}
+
+header .register ul li {
+    padding-left: 20px;
+}
+
+header .register ul .login {
+    width: 80px;
+    height: 30px;
+    background: #B6870A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+header .register ul .SignUp {
+    width: 80px;
+    height: 30px;
+    background: #008A89;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+
+}
+
+.hero {
+    background-image: url(../images/image8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.hero .travel {
+    width: 400px;
+    height: 350px;
+    background: #eee;
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(180, 176, 176);
+}
+
+.hero .travel .travel-menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+}
+
+.hero .travel .travel-menu ul .track {
+    background: #090A67;
+    color: #eee;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.hero .travel .travel-menu ul .search {
+    width: 200px;
+    background: #eee;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.hero .travel .travel-menu ul .search a {
+    color: #000;
+}
+
+.hero .travel .travel-info {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.hero .travel .travel-info ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero .travel .travel-info ul .point {
+    border-bottom: 3px solid #008A89;
+    padding-top: 8px;
+}
+
+.hero .travel .travel-info ul .vessel {
+    background: #008A89;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.hero .travel .travel-info ul li a {
+    color: #000;
+}
+
+.hero .container label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.hero .container input {
+    width: 100%;
+    background: #CECAC9;
+    height: 30px;
+    border: 1px solid #CECAC9;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.hero .container {
+    margin-top: 30px;
+}
+
+.hero .container .form-search input {
+    width: 80%;
+}
+
+.hero .container .form-search {
+    height: 30px;
+}
+
+.hero .container .form-search a {
+    background: #008A89;
+    padding: 8px;
+    border-radius: 3px;
+    color: #000;
+}
+
+.our-service {
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.services {
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.services .photo {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.services .content {
+    width: 50%;
+}
+
+.services .photo img {
+    width: 100%;
+    border-radius: 5px;
+}
+.services .content h2{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.services .content p {
+    padding-top: 5px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+footer {
+    height: 170px;
+    background: #090A67;
+    color: #eee;
+    margin-top: 40px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .contact ul{
+    display: flex;
+    padding: 0;
+}
+footer .container .contact ul li i {
+    color:#fff;
+    margin-left: 10px;
+}
+footer .container .policy ul li{
+    padding-top: 8px;
+}
