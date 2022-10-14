@@ -258,3 +258,11 @@ header .last-header {
     padding-top: 3px;
     height: 230px;
 }
+.head-name {
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display:flex;
+    justify-content: space-between;
+}
