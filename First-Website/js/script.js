@@ -76,18 +76,15 @@ hosting.onclick = () => {
 // ************************************ [5] Form Validation with error messages 
 
 let btn = document.querySelector('#btn'),
-    inputname = document.querySelector('#name').value,
-    inputemail = document.querySelector('#email').value,
-    inputcontact = document.querySelector('#contact').value;
+    required = document.querySelectorAll('.required');
 btn.onclick = () => {
-    if (inputname === '') {
-        document.querySelector('.name').classList.remove('hide');
-    } if (inputemail === '') {
-        document.querySelector('.email').classList.remove('hide');
-    }
-    // if (inputcontact === '') {
-    //     document.querySelector('.contact').classList.remove('hide');
-    // }
+    required.forEach((e) => {
+        if(e.value ==''){
+            e.parentNode.querySelector('span').style.display = 'block';
+        }else{
+            e.parentNode.querySelector('span').style.display = 'none';
+        }
+    });
 }
 // ************************************ [7] Loading screen with percentage of loading
 let progres = document.querySelector('.progres'),
@@ -97,11 +94,9 @@ let number = document.querySelector('.number');
 let counter = 0;
 setInterval(() => {
     if (counter == 100) {
-        progres.setAttribute('class','hidden');
+        progres.setAttribute('class', 'hidden');
         section.classList.remove('hidden');
         clearInterval();
-
-
     } else {
         counter += 1;
         number.innerHTML = counter + "%";

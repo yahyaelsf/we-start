@@ -428,6 +428,7 @@ header .menu ul li .btn:hover {
     font-weight: 400px;
     font-size: 13px;
     color: red;
+    display: none;
 }
 
 .data .form .form-group a.btn {

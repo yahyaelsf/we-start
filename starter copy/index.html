@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title></title>
+</head>
+
+<body>
+    <div id="app" v-cloak>
+        <input type="text" v-model="username" @keyup.prevent.enter="searchData">
+        <div>{{ username }}</div>
+        <br>
+        <hr>
+        <div>{{ name }}</div>
+        <img :src="image" alt="">
+        <hr>
+        <br> 
+        <h2>Repositories Menu </h2>
+        <ul>
+            <li v-for="repo in repos">
+                <h4>{{ repo.name }}</h4>
+                <a :href="repo.url" target="_blank">{{ repo.url }}</a>
+            </li>
+        </ul>
+
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
