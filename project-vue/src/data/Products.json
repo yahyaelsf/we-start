@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "image": "https://via.placeholder.com/200",
+        "title": "Muffin Mix - Raisin Bran",
+        "price": 299,
+        "category": "Framing (Steel)",
+        "colors": [
+            "red"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://via.placeholder.com/200",
+        "title": "Liners - Baking Cups",
+        "price": 225,
+        "category": "EIFS",
+        "colors": [
+            "red",
+            "blue"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://via.placeholder.com/200",
+        "title": "Towel Multifold",
+        "price": 337,
+        "category": "Hard Tile & Stone",
+        "colors": [
+            "pink",
+            "black"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://via.placeholder.com/200",
+        "title": "Soup - French Onion",
+        "price": 229,
+        "category": "Site Furnishings",
+        "colors": [
+            "pink",
+            "red"
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://via.placeholder.com/200",
+        "title": "Potatoes - Peeled",
+        "price": 230,
+        "category": "Site Furnishings",
+        "colors": [
+            "blue"
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://via.placeholder.com/200",
+        "title": "V8 Splash Strawberry Kiwi",
+        "price": 161,
+        "category": "Soft Flooring and Base",
+        "colors": [
+            "red",
+            "pink"
+        ]
+    }
+]
